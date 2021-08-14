@@ -1,0 +1,47 @@
+/* CSS Styles for Jax's website
+ *
+ * mostly copied from: https://gist.github.com/michael/7e1442fc8366102108b79d5e6d2698b4
+ *
+ * Sig: SCRITTY
+ */
+
+ body {
+  overflow: hidden;
+  background-image: url("Source_Media/typicalbackground.gif");
+  background-repeat: repeat;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+.cell.highlighted {
+  /*overflow: visible;*/
+  /*flex: 0 0 auto;*/
+  background: pink;
+}
+
+.cell.empty {
+  background: black;
+}
+
+.cell {
+  flex: 0 0 auto;
+  display: flex;
+  width: 100px;
+  white-space: nowrap;
+  overflow: visible;
+}
