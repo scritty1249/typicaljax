@@ -7,7 +7,7 @@
 
  body {
   overflow: hidden;
-  background-image: url("TypicalMedia/typicalbackground.gif");
+  background-image: url("/TypicalMedia/typicalbackground.gif");
   background-color: blueviolet; /* Loads solid color if GIF fails to render */
   background-repeat: no-repeat;
   background-position: center;
