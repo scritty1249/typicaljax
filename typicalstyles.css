@@ -7,8 +7,11 @@
 
  body {
   overflow: hidden;
-  background-image: url("Typical_Media/typicalbackground.gif");
-  background-repeat: repeat;
+  background-image: url("TypicalMedia/typicalbackground.gif");
+  background-color: blueviolet; /* Loads solid color if GIF fails to render */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
